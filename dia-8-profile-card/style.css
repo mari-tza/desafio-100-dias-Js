@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body {
-    color: #2b2c48;
+    color: #a52a59;
     font-family: "Jost", sans-serif;
-    background-image: url(https://i.pinimg.com/564x/54/ea/e6/54eae6db69782a56f031e48f287ce440.jpg);
+    background-image: url(https://i.pinimg.com/originals/d6/d0/bd/d6d0bdfdbdb9db439b8033c7681976dc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -217,8 +217,8 @@ body {
     border-bottom: 3px solid transparent;
   }
   .card-buttons button.is-active, .card-buttons button:hover {
-    color: #2b2c48;
-    border-bottom: 3px solid #aa63a7;
+    color: #a52a59;
+    border-bottom: 3px solid #a52a59;
     background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
   }
   
@@ -287,7 +287,7 @@ body {
     text-indent: -35px;
     border-radius: 50%;
     color: rgba(134, 134, 134, 0.7);
-    background: linear-gradient(to bottom, #dba0e3 0%, #aa63a7 100%);
+    background: linear-gradient(to bottom, #d8d393 0%, #a52a59 100%);
   }
   
   .card-item-title {
@@ -332,7 +332,7 @@ body {
   .contact-me {
     border: 0;
     outline: none;
-    background: linear-gradient(to right, rgba(187, 225, 238, 0.8) 0%, #aa63a7 96%);
+    background: linear-gradient(to right, #a52a59 0%, #d8d393 96%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
     color: #fff;
     padding: 12px 16px;

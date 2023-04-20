@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #eff3ff;
+  }
+  .container {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  #card {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+  }
+  #card img {
+    display: block;
+    width: 180px;
+    max-height: 300px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin: 20px auto;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  img {
+    animation: fadeIn 1s ease-in-out;
+  }
+  .hp {
+    width: 90px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+  }
+  .poke-name {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+  }
+  .hp span,
+  .types span {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+  }
+  .types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  .stats {
+    position: fixed;
+    top: 500px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+  }
+  .stats p {
+    color: #404060;
+  }
+  button {
+    margin-top: 20px;
+    left: 30%;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #dfdfdf 0%, #858585 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgba(6, 1, 15, 0.3), inset 0px -0.01em 0px rgba(0, 0, 0, 0.5);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #000000;
+    transform: translateY(-0.1em);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0.1em 0.6em #0d1233;
+    transform: translateY(0em);
+  }
