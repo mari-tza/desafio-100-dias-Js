@@ -1,0 +1,91 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+.wrap{
+    position: relative;
+}
+
+.slide{
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.slide1 {
+    background-image: url(foto1.jpg)
+}
+.slide2 {
+    background-image: url(foto2.jpg)
+}
+.slide3 {
+    background-image: url(foto4.jpg)
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .slide-content span {
+    font-size: 7rem;
+    color: #fff;
+    mix-blend-mode: soft-light;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    opacity: 30%;
+    transition: opacity 0.3s ease;
+  }
+
+  .arrow:hover {
+    opacity: 1;
+  }
+  #arrow-left {
+    z-index: 1;
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+  }
+  
+  #arrow-right {
+    z-index: 1;
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 30px;
+  }
