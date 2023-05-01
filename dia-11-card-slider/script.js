@@ -7,7 +7,7 @@ let sliderImages = document.querySelectorAll(".slide"),
 function reset() {
   for (let i = 0; i < sliderImages.length; i++) {
     sliderImages[i].style.display = "none";
-  }
+  }74
 }
 
 // Init slider
