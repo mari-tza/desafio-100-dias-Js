@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #eee;
+    background-image: url("https://projectn.com.br/wp-content/uploads/2022/10/987C62DD-96F3-4ABE-8046-52F7A8A86431-1536x864.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.card {
+    background-image: url(data:image/png;base64,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);
+    backdrop-filter: blur(5px);
+    min-width: 320px;
+    height: 450px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.104),
+    0px 0px 7.2px rgba(0, 0, 0, 0.249), 0px 0px 13.6px rgba(0, 0, 0, 0.175),
+    0px 0px 24.3px rgba(0, 0, 0, 0.252), 0px 0px 45.5px rgba(0, 0, 0, 0.186),
+    0px 0px 109px rgba(0, 0, 0, 0.164);
+    border-radius: 18px;
+}
+
+.glare-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 18px;
+}
+
+.glare {
+    position: absolute;
+    left: 100%;
+    bottom: -50%;
+    width: 150%;
+    height: 150%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.444) 0%,
+    rgba(255, 255, 255, 0.249) 20%
+    );
+    transform: rotateZ(35deg);
+    pointer-events: none;
+    filter: blur(4px);
+}
+
+.card-0 {
+    background-image: url(https://assets.pokemon.com/assets/cms2/img/cards/web/SV01/SV01_EN_245.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 76, 255, 0.3);
+}
+
+.card-1 {
+    background-image: url(https://img.mypcards.com/img/2/1589/pokemon_evs_074_203/pokemon_evs_074_203_pt.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.23);
+}
+
+.card-2 {
+    background-image: url(https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/163/4325_245.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.23);
+}
+
+.card-3 {
+    background-image: url(https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/165/5648_SWSH149.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.23);
+}
+
+.card-4 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0585/7371/7661/products/1509_RR035_0959DEKANUCHANex.png?v=1681368925);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 0, 0, 0.23);
+}
+
+.wrapper{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
