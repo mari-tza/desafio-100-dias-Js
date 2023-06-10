@@ -1,0 +1,1 @@
+Fiz esse carrossel de fotos da minha banda favorita! Peguei foto da capa de todos os álbuns e escrevi o nome dele no canto inferior esquerdo. Quando voce clica, expande a imagem. ![image](https://github.com/mari-tza/desafio-100-dias-Js/assets/126166336/bceec729-86ba-43c2-8920-3cb0653fab41)
