@@ -1,0 +1,1 @@
+Quando voce clica na tela, aparece a imagem que voce escolheu, como se fosse uma "chuva" mesmo ![image](https://github.com/mari-tza/desafio-100-dias-Js/assets/126166336/0a814cc2-7911-4ee1-a796-db92aa7da267)
