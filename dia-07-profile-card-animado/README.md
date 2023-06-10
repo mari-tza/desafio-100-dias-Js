@@ -1,0 +1,1 @@
+Nao me lembro infelizmente de onde eu encontrei o original, no qual eu me inspirei pra fazer esse card, mas se encontrar, atualizarei esse readme ![image](https://github.com/mari-tza/desafio-100-dias-Js/assets/126166336/e25bd2e7-43ba-44a5-874d-1b5945800ea5)
